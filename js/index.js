@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // set a timer to reduce opacity and scale every 100ms
     const intervalID = setInterval(function() {
-      opacity -= 0.05;
-      scale += 1.5;
+      opacity -= 0.1;
+      scale += 1.8;
       // set the new opacity and scale
       video.style.transition = "opacity 2s cubic-bezier(0.4, 0, 1, 1), transform 2s cubic-bezier(0.4, 0, 1, 1)"
       video.style.opacity = opacity;
